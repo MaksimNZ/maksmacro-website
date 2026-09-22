@@ -35,9 +35,8 @@ header {
 }
 
 .wordmark {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
+  display: block;
+  padding-left: 2.1rem;
   font-family: 'Inter', system-ui, sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
@@ -46,13 +45,6 @@ header {
   color: var(--fg);
   text-decoration: none;
   flex-shrink: 0;
-}
-
-.wordmark-icon {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  object-fit: cover;
 }
 
 nav {
