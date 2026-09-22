@@ -62,9 +62,16 @@ nav a {
 }
 
 @media (max-width: 480px) {
-  header { padding: 1.25rem 1.25rem; }
+  header {
+    flex-direction: column;
+    padding: 1.25rem 1.25rem;
+  }
   .wordmark { font-size: 0.95rem; }
-  nav { gap: 0.5rem 0.9rem; }
+  nav {
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem 0.9rem;
+  }
   nav a { font-size: 0.68rem; }
 }
 
