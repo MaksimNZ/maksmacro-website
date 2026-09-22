@@ -68,7 +68,11 @@ nav a {
     flex-direction: column;
     padding: 1.25rem 1.25rem;
   }
-  .wordmark { font-size: 0.95rem; }
+  .wordmark {
+    font-size: 0.95rem;
+    padding-left: 0;
+    text-align: center;
+  }
   nav {
     width: 100%;
     justify-content: center;
